@@ -1,0 +1,17 @@
+[project]
+name = "sjasoft-uopdb-memory"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Samantha Atkins", email = "samantha@sjasoft.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+sjasoft-uopdb-memory = "sjasoft_uopdb_memory:main"
+
+[build-system]
+requires = ["uv_build>=0.8.11,<0.9.0"]
+build-backend = "uv_build"
